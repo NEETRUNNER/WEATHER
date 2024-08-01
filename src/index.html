@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Прогноз погоды</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+</head>
+<body>
+    
+    <section class="app">
+        <img src="img/weather.png" alt="" class="app-img">
+        <h1 class="app-title">Приложение для прогноза погоды</h1>
+            <div class="app-wrapper">
+                <div class="app-wrapper__block">
+
+                    <form id="form" action="">
+                        <button>
+                            <img src="img/loupe.png" alt="" class="app-wrapper__loupe">
+                        </button>
+                        <input id="input" type="text" placeholder="Введите город" class="app-wrapper__input">
+                    </form>
+                    
+            </div>
+            <div class="app-block__weather">
+                <img src="img/cloudy.png" alt="" class="app-wrapper__img">
+                <div class="divider"></div>
+                <div id="temperature" class="app-wrapper__temperature"></div>
+                <h1 id="city" class="app-wrapper__city"></h1>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/bundle.js"></script>
+</body>
+</html>
